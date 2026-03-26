@@ -1,14 +1,21 @@
-import logo from './logo.svg';
 import Navbar from "./components/Navbar";
-import HeroSlider from "./components/HeroSlider";
-
-import './App.css';
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Process from "./components/Process";
+import Stats from "./components/Stats";
+import Services from "./components/Services";
+// import WhyChoose from "./components/WhyChoose";
 
 function App() {
   return (
     <>
       <Navbar />
-      <HeroSlider />
+      <Hero />
+      <About />
+      <Process />
+      <Stats />
+      <Services />
+      {/* <WhyChoose /> */}
     </>
   );
 }
